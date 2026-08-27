@@ -1,6 +1,6 @@
 # oficina-infra-database
 
-Infraestrutura como código do **banco de dados gerenciado (AWS RDS PostgreSQL 15)** do Tech Challenge SOAT — Fase 3 (Grupo 32).
+Infraestrutura como código do **banco de dados gerenciado (AWS RDS PostgreSQL 15)** do Tech Challenge SOAT — Fase 3 (Grupo 183).
 
 > Repositório 3 de 4 da Fase 3. Ver também: [oficina-mecanica-api](https://github.com/Ralima0711/oficina-mecanica-api) · [oficina-lambda-auth](https://github.com/Ralima0711/oficina-lambda-auth) · [oficina-infra-k8s](https://github.com/Ralima0711/oficina-infra-k8s)
 
@@ -47,6 +47,6 @@ Diagrama ER e justificativa do modelo relacional: ver documentação de arquitet
 
 Branch `main` protegida. Todo merge via **Pull Request** com aprovação de outro membro. Nunca commitar `terraform.tfvars`, senhas ou state com segredos.
 
-## Time — Grupo 32
+## Time — Grupo 183
 
 Roberta Lima (Tech Lead) · Gustavo Delfino (Infra/CI-CD) · David Tavares (Infra/CI-CD) · Johny David (Aplicação)
