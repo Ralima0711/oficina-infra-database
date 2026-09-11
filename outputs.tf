@@ -40,8 +40,7 @@ output "db_name" {
   value       = aws_db_instance.oficina_db.db_name
 }
 
-output "db_username" {
-  description = "Usuário administrador"
-  value       = var.db_username
-  sensitive   = true
+output "ssm_vpc_endpoint_id" {
+  description = "VPC endpoint Interface do SSM (Lambda na VPC sem NAT)"
+  value       = aws_vpc_endpoint.ssm.id
 }
