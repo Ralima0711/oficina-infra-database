@@ -45,3 +45,8 @@ output "db_username" {
   value       = var.db_username
   sensitive   = true
 }
+
+output "ssm_vpc_endpoint_id" {
+  description = "VPC endpoint Interface do SSM (Lambda na VPC sem NAT)"
+  value       = aws_vpc_endpoint.ssm.id
+}
